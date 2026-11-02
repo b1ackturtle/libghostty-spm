@@ -17,7 +17,7 @@ if [ ! -f .root ]; then
     exit 1
 fi
 
-REPO=${REPO:-Lakr233/libghostty-spm}
+REPO=${REPO:-b1ackturtle/libghostty-spm}
 
 git fetch -q --tags origin
 
